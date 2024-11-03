@@ -1,0 +1,44 @@
+package net.javaguides.sms.entity;
+
+public class Student {
+      private long id;
+      private String Fname;
+      private String Lname;
+      private String email;
+      
+      public Student() {
+    	  
+      }
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getFname() {
+		return Fname;
+	}
+	public void setFname(String fname) {
+		Fname = fname;
+	}
+	public String getLname() {
+		return Lname;
+	}
+	public void setLname(String lname) {
+		Lname = lname;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public Student(String fname, String lname, String email) {
+		super();
+		Fname = fname;
+		Lname = lname;
+		this.email = email;
+	}
+      
+      
+}
